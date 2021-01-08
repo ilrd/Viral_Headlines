@@ -15,9 +15,3 @@ RUN pip install --upgrade pip && pip install -r docker_requirements.txt && pytho
 COPY . .
 
 CMD ["python", "src/modelinghon", "src/modeling/tr/training_testing.py"]
-
-# import src.modeling.training_testing
-# apt-get -y install python3-tk
-# docker run -it --rm --gpus all --env="DISPLAY" --volume="$PWD":/app --volume="/etc/group:/etc/group:ro" --volume="/etc/passwd:/etc/passwd:ro" --volume="/etc/shadow:/etc/shadow:ro" --volume="/etc/sudoers.d:/etc/sudoers.d:ro" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" viral_headlines:2.4.0
-# docker run -it --rm --gpus all --env="DISPLAY" --net=host -e DISPLAY --volume="$PWD":/app --volume="/etc/group:/etc/group:ro" --volume="/etc/passwd:/etc/passwd:ro" --volume="/etc/shadow:/etc/shadow:ro" --volume="/etc/sudoers.d:/etc/sudoers.d:ro" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" viral_headlines:2.4.0 bash
-# docker run -it --rm --gpus all --net=host -e DISPLAY viral_headlines:2.4.0 bash
