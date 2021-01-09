@@ -1,4 +1,4 @@
-#Viral Headlines
+# Viral Headlines
 
 
 The project is made for creative YouTubers that want to have the most
