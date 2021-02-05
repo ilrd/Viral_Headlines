@@ -48,4 +48,5 @@ To run the project with docker you can use the image I hosted on docker hub: htt
 From the console run:
 
 docker pull illiaherasymenko/viral_headlines:final
+
 docker run --rm -ti --gpus all illiaherasymenko/viral_headlines:final
