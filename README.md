@@ -41,3 +41,11 @@ limited storage on the web host, I was unable to run Tensorflow there.
 Anyway, you can run server.py and open http://localhost:5000/ in your
 browser to see how the model works in the deployment. Also, you can build a
 docker image of this project using the provided Dockerfile.
+
+## Docker
+To run the project with docker you can use the image I hosted on docker hub: https://hub.docker.com/repository/docker/illiaherasymenko/viral_headlines/general
+
+From the console run:
+
+docker pull illiaherasymenko/viral_headlines:final
+docker run --rm -ti --gpus all illiaherasymenko/viral_headlines:final
